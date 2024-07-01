@@ -135,4 +135,4 @@ sleep 2
 
 gnome-terminal -- bash -c "rosrun teleop_twist_keyboard teleop_twist_keyboard.py; exec bash"
 
-Abrir o terminal pela área de trabalho: ./robertinho_start.sh 172.26.102.103 (nome do seu arquivo e o ip do seu robô)
+Abrir o terminal pela área de trabalho: ./robertinho_start.sh.save 172.26.102.103 (nome do seu arquivo e o ip do seu robô)

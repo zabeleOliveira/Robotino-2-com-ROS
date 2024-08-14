@@ -20,7 +20,7 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 
-Configurando o ROS.
+**Configurando o ROS**
 Após instalar o ROS, é necessário configurar seu espaço de trabalho catkin (http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
  mkdir -p ~/catkin_ws/src
@@ -31,7 +31,7 @@ Após instalar o ROS, é necessário configurar seu espaço de trabalho catkin (
  echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
  source ~/.bashrc
 
-Usando um repositório de pacotes ROS para trabalhar com o Robotino
+**Usando um repositório de pacotes ROS para trabalhar com o Robotino**
 (https://github.com/red-itmo/robotino)
 
 No seu terminal:
@@ -57,7 +57,7 @@ set(CMAKE_MODULE_PATH /opt/robotino/cmake)
 
 catkin_make
 
-Instalando comando de controle por keyboard.
+**Instalando comando de controle por keyboard**
 (http://wiki.ros.org/teleop_twist_keyboard)
 
 O noetic pode ser substituído por outra versão do ros que você esteja usando, por exemplo, melodic.
@@ -78,7 +78,7 @@ No caso do Robotino2, com cartão de 1GB, usando essa opção:
 1GB 
 dd-image (265MB) md5sum
 
-No Robotino:
+**No Robotino**
 
 Baixar e configurar pacotes ROS para o Robotino.
 Conectar o cabo de rede, entre o computador e o Robotino.

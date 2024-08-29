@@ -98,7 +98,7 @@ Baixar os debs:
 O php escolhe automaticamente a versão estável atual.
 
 wget http://doc.openrobotino.org/download/packages/i386/rec-rpc_current.php
- wget http://doc.openrobotino.org/download/packages/i386/robotino-common_current.php
+wget http://doc.openrobotino.org/download/packages/i386/robotino-common_current.php
 wget http://doc.openrobotino.org/download/packages/i386/robotino-daemons_current.php
 wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
 wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
@@ -120,19 +120,19 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 Criar um arquivo de inicialização: 
 
-Na área de trabalho
+Na área de trabalho:
 
-#!/bin/bash
+    #!/bin/bash
 
-gnome-terminal -- bash -c "roscore; exec bash"
+    gnome-terminal -- bash -c "roscore; exec bash"
 
-sleep 2
+    sleep 2
 
-gnome-terminal -- bash -c "roslaunch robotino_node robotino_node.launch hostname:=$1
-; exec bash"
+    gnome-terminal -- bash -c "roslaunch robotino_node robotino_node.launch hostname:=$1
+    ; exec bash"
 
-sleep 2
+    sleep 2
 
-gnome-terminal -- bash -c "rosrun teleop_twist_keyboard teleop_twist_keyboard.py; exec bash"
+    gnome-terminal -- bash -c "rosrun teleop_twist_keyboard teleop_twist_keyboard.py; exec bash"
 
 Abrir o terminal pela área de trabalho: ./robertinho_start.sh.save 172.26.102.103 (nome do seu arquivo e o ip do seu robô)

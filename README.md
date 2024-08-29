@@ -97,11 +97,11 @@ senha: dorp6
 Baixar os debs:
 O php escolhe automaticamente a versão estável atual.
 
-wget http://doc.openrobotino.org/download/packages/i386/rec-rpc_current.php
-wget http://doc.openrobotino.org/download/packages/i386/robotino-common_current.php
-wget http://doc.openrobotino.org/download/packages/i386/robotino-daemons_current.php
-wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
-wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
+    wget http://doc.openrobotino.org/download/packages/i386/rec-rpc_current.php
+    wget http://doc.openrobotino.org/download/packages/i386/robotino-common_current.php
+    wget http://doc.openrobotino.org/download/packages/i386/robotino-daemons_current.php
+    wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
+    wget http://doc.openrobotino.org/download/packages/i386/robotino-api2_current.php
 
 É importante dar um ls para saber as versões
    
